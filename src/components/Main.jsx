@@ -1,0 +1,44 @@
+import React from "react";
+
+export default function Main() {
+  return (
+    <div className="mb-[5rem]">
+      <div className="z-[50] flex flex-row-reverse mt-[8rem] mb-[1.5rem] justify-center gap-[1rem]">
+        <h1 className="font-poppins font-semibold text-4xl mt-[2rem] text-gray-200">
+          MankX_
+        </h1>
+        <img
+          src="https://cdn.picrew.me/shareImg/org/202404/2259682_ad2opgHu.png"
+          alt="MankX_"
+          className="size-[5.5rem] relative top-[5px] rounded-[100px] border-gray-300 border-[2px] inline"
+        />
+      </div>
+      <div className="flex justify-center">
+        <button
+          className="button_job w-[6rem] h-[1.5rem] font-poppins ml-[4.5rem] my-[-2.3rem]"
+          onClick={() => {
+            window.open(
+              "https://www.linkedin.com/in/manuel-gutierrez-80616a264/",
+              "_blank"
+            );
+          }}
+        >
+          Disponible
+        </button>
+      </div>
+      <div className="flex justify-center">
+        <p className="w-[50%] font-poppins font-light text-gray-200 text-center">
+          <b>¡Hola!</b> soy Manuel Gutiérrez, también conocido como MankX_
+          <br />
+          Soy{" "}
+          <strong className="text-[#e9cf5d] font-bold">
+            estudiante de la Unviersidad de Medellín con conocimientos en React,
+            Python, Javascript, Css <i>(Tailwindcss)</i> y Html
+          </strong>
+          . Me enfoco principalmente en el desarrollo web, pero también tengo
+          conocimientos básicos sobre ciberseguridad y creación de videojuegos.
+        </p>
+      </div>
+    </div>
+  );
+}

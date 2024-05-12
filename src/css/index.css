@@ -15,6 +15,9 @@ body {
     .header_text {
         @apply hover:text-[#e9cf5d] transition cursor-pointer;
     }
+    .title {
+      @apply font-poppins text-gray-300 text-3xl text-center font-semibold
+    }
 }
 
 *{
@@ -229,7 +232,8 @@ html {
   
   .timeline-content {
     padding: 20px;
-    background: #1f1f1f;
+    background: #1d1c1cbd;
+    backdrop-filter: blur(15px);
     -webkit-box-shadow: 5px 5px 10px #fabe1a20, -5px -5px 10px #242424;
             box-shadow: 5px 5px 10px #fabe1a20, -5px -5px 10px #242424;
     border-radius: 5px;
@@ -275,5 +279,11 @@ html {
 .header {
     left: 50%;
     transform: translateX(-50%);
-    top: 0
+    top: 0;
+
+}
+
+.card_hover_button:hover button{
+  transform: translateY(0%);
+  opacity: 1;
 }

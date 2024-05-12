@@ -29,7 +29,9 @@ export default function Header() {
       <a href="#experience">
         <h1 className="header_text z-50">Experiencia</h1>
       </a>
-      <h1 className="header_text z-50">Proyectos</h1>
+      <a href="#projects">
+        <h1 className="header_text z-50">Proyectos</h1>
+      </a>
       <h1 className="header_text z-50">Sobre mí</h1>
     </header>
   );

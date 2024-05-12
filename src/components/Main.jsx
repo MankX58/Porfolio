@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Main() {
   return (
-    <div className="mb-[5rem]">
+    <div className="mb-[3rem]">
       <div className="z-[50] flex flex-row-reverse mt-[8rem] mb-[1.5rem] justify-center gap-[1rem]">
         <h1 className="font-poppins font-semibold text-4xl mt-[2rem] text-gray-200">
           MankX_
@@ -36,7 +36,7 @@ export default function Main() {
             Python, Javascript, Css <i>(Tailwindcss)</i> y Html
           </strong>
           . Me enfoco principalmente en el desarrollo web, pero también tengo
-          conocimientos básicos sobre ciberseguridad y creación de videojuegos.
+          conocimientos sobre ciberseguridad y creación de videojuegos.
         </p>
       </div>
     </div>

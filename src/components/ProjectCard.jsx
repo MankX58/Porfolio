@@ -18,7 +18,7 @@ export default function ProjectCard(project) {
             {project.description}
           </p>
         </div>
-        <button className="bg-[#e9cf5d] absolute opacity-0 rounded-[10px] w-[8rem] self-center transition top-[19rem] translate-y-[40%] font-onest font-semibold">
+        <button className="bg-[#e9cf5d] absolute opacity-0 rounded-[10px] w-[8rem] h-[2rem] self-center transition top-[18.8rem] translate-y-[40%] font-onest font-semibold duration-[0.3s]">
           Saber más...
         </button>
       </div>

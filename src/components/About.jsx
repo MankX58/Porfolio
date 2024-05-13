@@ -31,7 +31,7 @@ export default function AboutMe() {
         <img
           src="https://cdn.picrew.me/shareImg/org/202404/2259682_ad2opgHu.png"
           alt=""
-          className="size-[14rem] rotate-12 flex-initial rounded-[10px] relative top-[0rem] shadow-lg shadow-[#e9cf5d] transition-all"
+          className="size-[14rem] hover:rotate-0 rotate-12 flex-initial rounded-[10px] relative top-[0rem] shadow-lg shadow-[#e9cf5d] transition-all"
         />
       </div>
     </section>

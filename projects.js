@@ -9,4 +9,15 @@ export const projects = [{
     img: "https://i.ibb.co/2q1r3cN/Portfolio.png",
     title: "Portfolio",
     description: "This portfolio was made using ReactJS and Tailwindcss",
-}]
+},
+{
+    repo: "",
+    img: "https://i.ibb.co/2q1r3cN/Portfolio.png",
+    title: "Portfolio",
+    description: "This portfolio was made using ReactJS and Tailwindcss"},
+{
+    repo: "",
+    img: "https://i.ibb.co/2q1r3cN/Portfolio.png",
+    title: "Portfolio",
+    description: "This portfolio was made using ReactJS and Tailwindcss"},
+]

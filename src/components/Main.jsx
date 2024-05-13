@@ -1,4 +1,5 @@
 import React from "react";
+import Badges from "./Badges";
 
 export default function Main() {
   return (
@@ -38,6 +39,9 @@ export default function Main() {
           . Me enfoco principalmente en el desarrollo web, pero también tengo
           conocimientos sobre ciberseguridad y creación de videojuegos.
         </p>
+      </div>
+      <div className="py-[1rem]">
+        <Badges />
       </div>
     </div>
   );

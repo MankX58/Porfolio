@@ -4,9 +4,9 @@ import { projects } from "../../projects";
 
 export default function Projects() {
   return (
-    <div className="mt-[3rem]" id="projects">
+    <div className="pt-[5rem]" id="projects">
       <h2 className="title mb-[2rem]">Proyectos</h2>
-      <div className="flex justify-center">
+      <div className="flex justify-center overflow-scroll no-scroll">
         {projects.map((projects) => (
           <ProjectCard
             title={projects.title}

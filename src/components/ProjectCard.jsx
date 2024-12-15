@@ -12,6 +12,12 @@ export default function ProjectCard(project) {
     setShowModal(false);
   };
 
+  const handleClickOutside = (e) => {
+    if (e.target.classList.contains("modal-overlay")) {
+      closeModal();
+    }
+  };
+
   return (
     <div className="p-[1rem] flex relative rounded-[10px]">
       <div className="w-[14rem] bg-[#1d1c1c] bg-opacity-75 h-[19rem] flex flex-col overflow-hidden rounded-[10px] hover:border-[#e9cf5d] border-[2px] border-[#fff0] transition-all card_hover_button mb-[1rem]  ">
@@ -39,15 +45,18 @@ export default function ProjectCard(project) {
         </button>
       </div>
       {showModal && (
-        <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex justify-center items-center z-[100]">
-          <div className="rounded-lg">
+        <div
+          className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex justify-center items-center z-[100] modal-overlay"
+          onClick={handleClickOutside}
+        >
+          <div className="rounded-lg relative">
             <img
               src={project.img}
-              className="max-w-[45rem] max-h-[25rem] "
+              className="max-w-[45rem] max-h-[25rem]"
               alt=""
             />
             <button
-              className="absolute top-2 right-2 text-red-500 text-3xl size-[2rem] font-extrabold"
+              className="absolute top-2 right-2 text-red-500 text-3xl size-[2rem] font-extrabold hover:scale-125 transition-all"
               onClick={closeModal}
             >
               X

@@ -29,7 +29,7 @@ export default function AboutMe() {
           videojuegos.
         </p>
         <img
-          src="https://cdn.picrew.me/shareImg/org/202404/2259682_ad2opgHu.png"
+          src="https://i.ibb.co/XY7K51x/IMG-20241205-124054-708.webp"
           alt=""
           className="size-[14rem] hover:rotate-0 rotate-12 flex-initial rounded-[10px] relative top-[0rem] shadow-lg shadow-[#e9cf5d] transition-all"
         />

@@ -9,9 +9,9 @@ export default function Main() {
           MankX_
         </h1>
         <img
-          src="https://cdn.picrew.me/shareImg/org/202404/2259682_ad2opgHu.png"
+          src="https://i.ibb.co/nc3Vhpk/1734165597860.jpg"
           alt="MankX_"
-          className="size-[5.5rem] relative top-[5px] rounded-[100px] border-gray-300 border-[2px] inline"
+          className="size-[5.5rem] object-cover relative top-[5px] rounded-[100px] border-gray-300 border-[2px] inline"
         />
       </div>
       <div className="flex justify-center">

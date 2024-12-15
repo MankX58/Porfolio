@@ -1,19 +1,19 @@
 export const certificates = [{
-    src: "./public/docs/Certificado Excel Manuel Gutiérrez Villegas.pdf"
+    src: "/docs/Certificado Excel Manuel Gutiérrez Villegas.pdf"
 },
 {
-    src: "./public/docs/Diploma_Tailwind_Manuel.pdf"
+    src: "/docs/Diploma_Tailwind_Manuel.pdf"
 },
 {
-    src: "./public/docs/Diploma_Javascript_Manuel.pdf"
+    src: "/docs/Diploma_Javascript_Manuel.pdf"
 },
 {
-    src: "./public/docs/Certificado_Programacion_Basica.pdf"
+    src: "/docs/Certificado_Programacion_Basica.pdf"
 },
 {
-    src: "./public/docs/Certificado_Programacion_Basica_2.pdf"
+    src: "/docs/Certificado_Programacion_Basica_2.pdf"
 },
 {
-    src: "./public/docs/Certificado - Javascript Meta.pdf"
+    src: "/docs/Certificado - Javascript Meta.pdf"
 }
 ]

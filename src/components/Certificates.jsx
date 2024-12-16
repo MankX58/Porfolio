@@ -1,18 +1,40 @@
 import React from "react";
 
 export default function Certificates(certificate) {
+  const [hover, setHover] = React.useState(false);
+
+  const handleMouseEnter = () => setHover(true);
+  const handleMouseLeave = () => setHover(false);
+  const handleClick = () => window.open(certificate.src, "_blank");
+
   return (
-    <div className="flex flex-row gap-[1rem]">
-      {/* <object
-        data={certificate.src}
-        type="application/pdf"
-        className="p-[1rem] min-w-[25rem] min-h-[23rem]"
+    <div
+      className="relative flex flex-wrap flex-row gap-[1rem] max-md:w-[200px] max-md:h-[150px]"
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+      onClick={handleClick}
+    >
+      <div
+        className={`absolute rounded-[10px] shadow-lg inset-0 flex items-center cursor-pointer justify-center bg-black bg-opacity-75 transition-opacity duration-300 max-md:w-[200px] max-md:h-[150px] ${
+          hover ? "opacity-0" : "opacity-100"
+        }`}
       >
-        <p>
-          alternate text <a href={certificate.src}>link</a>
-        </p>
-      </object> */}
-      <iframe src={certificate.src} height="200" width="300" frameborder="0" className="m-[.5rem]"></iframe>
+        <div className="text-white text-center flex flex-col flex-wrap justify-center items-center">
+          <img
+            src={certificate.logo}
+            alt={`${certificate.tech} logo`}
+            className="w-16 h-16 mb-2"
+          />
+          <b>
+            <p>{certificate.tech}</p>
+          </b>
+        </div>
+      </div>
+      <iframe
+        src={certificate.src}
+        frameBorder="0"
+        className=" h-[200px] w-[300px] rounded-[10px] shadow-lg max-md:w-[200px] max-md:h-[150px]"
+      ></iframe>
     </div>
   );
 }

@@ -10,7 +10,7 @@ import { certificates } from "../../certificates";
 
 export default function App() {
   return (
-    <>
+    <div className="overflow-hidden">
       <Background />
       <Header />
       <Main />
@@ -18,11 +18,15 @@ export default function App() {
       <Projects />
       <AboutMe />
       <h2 className="title mb-[2rem]">Certificados</h2>
-      <div className="flex flex-wrap justify-center">
+      <div className="flex flex-wrap justify-center mb-[.7rem]">
         {certificates.map((certificate) => (
-          <Certificates src={certificate.src} />
+          <Certificates
+            src={certificate.src}
+            tech={certificate.tech}
+            logo={certificate.logo}
+          />
         ))}
       </div>
-    </>
+    </div>
   );
 }

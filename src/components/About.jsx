@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function AboutMe() {
   return (
     <section className="w-full pb-[6rem]" id="aboutme">

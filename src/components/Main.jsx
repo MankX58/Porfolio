@@ -1,4 +1,3 @@
-import React from "react";
 import Badges from "./Badges";
 
 export default function Main() {
@@ -11,7 +10,7 @@ export default function Main() {
         <img
           src="https://i.ibb.co/nc3Vhpk/1734165597860.jpg"
           alt="MankX_"
-          className="size-[5.5rem] object-cover relative top-[5px] rounded-[100px] border-gray-300 border-[2px] inline"
+          className="size-[5.5rem]  object-cover relative top-[5px] rounded-[100px] border-gray-300 border-[2px] inline"
         />
       </div>
       <div className="flex justify-center">

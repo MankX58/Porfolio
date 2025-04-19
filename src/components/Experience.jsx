@@ -1,4 +1,3 @@
-import React from "react";
 import Timeline from "./ExperienceTL";
 
 export default function Experience() {

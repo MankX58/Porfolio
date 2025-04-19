@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from "react";
-
+import { useState, useEffect } from "react";
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -22,7 +21,7 @@ export default function Header() {
 
   return (
     <header
-      className={`bg-[#1d1c1c] rounded-[15px] w-[25rem] max-md:w-[20rem] text-center h-[2.5rem] mt-[1rem] text-md max-md:text-sm text-gray-300 font-poppins m-auto flex justify-center place-items-center gap-[2rem] border-[2px] border-gray-300 z-50 fixed header ${
+      className={`bg-[#1d1c1c] rounded-[15px] w-[30rem] max-md:w-[25rem] text-center h-[2.5rem] mt-[1rem] text-md max-md:text-sm text-gray-300 font-poppins m-auto flex justify-center place-items-center gap-[2rem] border-[2px] border-gray-300 z-50 fixed header ${
         isScrolled ? "backdrop-blur-xl bg-opacity-50 " : ""
       }`}
     >
@@ -34,6 +33,9 @@ export default function Header() {
       </a>
       <a href="#aboutme">
         <h1 className="header_text z-50">Sobre mí</h1>
+      </a>
+      <a href="#certificates">
+        <h1 className="header_text z-50">Certificados</h1>
       </a>
     </header>
   );

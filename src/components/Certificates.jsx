@@ -9,13 +9,13 @@ export default function Certificates(certificate) {
 
   return (
     <div
-      className="relative flex flex-wrap flex-row gap-[1rem]  max-md:h-[150px]"
+      className="relative flex flex-wrap flex-row gap-[1rem] my-[.8rem] max-md:h-[150px]"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
       onClick={handleClick}
     >
       <div
-        className={`absolute rounded-[10px] shadow-lg inset-0 flex items-center cursor-pointer justify-center bg-black bg-opacity-75 transition-opacity duration-300 mr-[1rem] max-sm:w-[150px] max-sm:h-[100px] max-md:w-[200px] max-md:h-[150px] ${
+        className={`absolute rounded-[10px] shadow-lg inset-0 flex items-center cursor-pointer justify-center bg-black bg-opacity-80 transition-opacity duration-300 mr-[1rem] max-sm:w-[150px] max-sm:h-[100px] max-md:w-[200px] max-md:h-[150px] ${
           hover ? "opacity-0" : "opacity-100"
         }`}
       >

@@ -1,15 +1,13 @@
-import React from "react";
-
 export default function Timeline() {
   return (
-    <section class="design-section">
-      <div class="timeline">
-        <div class="timeline-empty"></div>
+    <section className="design-section">
+      <div className="timeline">
+        <div className="timeline-empty"></div>
 
-        <div class="timeline-middle">
-          <div class="timeline-circle"></div>
+        <div className="timeline-middle">
+          <div className="timeline-circle"></div>
         </div>
-        <div class="timeline-component timeline-content">
+        <div className="timeline-component timeline-content">
           <h3>2020</h3>
           <p>
             Aprender{" "}
@@ -18,7 +16,7 @@ export default function Timeline() {
           </p>
         </div>
 
-        <div class="timeline-component timeline-content">
+        <div className="timeline-component timeline-content">
           <h3>2021</h3>
           <p>
             Aprender{" "}
@@ -30,17 +28,17 @@ export default function Timeline() {
             código de Javascript
           </p>
         </div>
-        <div class="timeline-middle">
-          <div class="timeline-circle"></div>
+        <div className="timeline-middle">
+          <div className="timeline-circle"></div>
         </div>
-        <div class="timeline-empty"></div>
+        <div className="timeline-empty"></div>
 
-        <div class="timeline-empty"></div>
+        <div className="timeline-empty"></div>
 
-        <div class="timeline-middle">
-          <div class="timeline-circle"></div>
+        <div className="timeline-middle">
+          <div className="timeline-circle"></div>
         </div>
-        <div class=" timeline-component timeline-content">
+        <div className=" timeline-component timeline-content">
           <h3>2022</h3>
           <p>
             Aprender{" "}
@@ -50,7 +48,7 @@ export default function Timeline() {
           </p>
         </div>
 
-        <div class="timeline-component timeline-content">
+        <div className="timeline-component timeline-content">
           <h3>2023</h3>
           <p>
             Aprender{" "}
@@ -62,17 +60,17 @@ export default function Timeline() {
             estructuradas
           </p>
         </div>
-        <div class="timeline-middle">
-          <div class="timeline-circle"></div>
+        <div className="timeline-middle">
+          <div className="timeline-circle"></div>
         </div>
-        <div class="timeline-empty"></div>
+        <div className="timeline-empty"></div>
 
-        <div class="timeline-empty"></div>
+        <div className="timeline-empty"></div>
 
-        <div class="timeline-middle">
-          <div class="timeline-circle"></div>
+        <div className="timeline-middle">
+          <div className="timeline-circle"></div>
         </div>
-        <div class="timeline-component timeline-content">
+        <div className="timeline-component timeline-content">
           <h3>2024</h3>
           <p>
             Empezar a aprender{" "}
